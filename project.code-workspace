@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "name": "projects/consumer-base",
+      "path": "./projects/consumer-base"
+    },
+    {
+      "name": "projects/remote-widget-primary",
+      "path": "./projects/remote-widget-primary"
+    },
+    {
+      "name": "ROOT",
+      "path": "./"
+    },
+  ],
+  "settings": {}
+}
