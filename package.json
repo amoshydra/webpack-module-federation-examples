@@ -1,0 +1,9 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "projects/consumer-base",
+    "projects/remote",
+    "service/npm"
+  ]
+}

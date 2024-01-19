@@ -1,0 +1,10 @@
+{
+  "name": "@amoshydra.local/item",
+  "version": "1.0.0",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "http://localhost:11000"
+  }
+}

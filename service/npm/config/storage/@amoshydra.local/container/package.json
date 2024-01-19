@@ -1,0 +1,70 @@
+{
+	"name": "@amoshydra.local/container",
+	"versions": {
+		"1.0.0": {
+			"name": "@amoshydra.local/container",
+			"version": "1.0.0",
+			"main": "index.js",
+			"typings": "index.d.ts",
+			"license": "MIT",
+			"publishConfig": {
+				"registry": "http://localhost:11000"
+			},
+			"dependencies": {
+				"@amoshydra.local/item": "^1.0.0"
+			},
+			"_id": "@amoshydra.local/container@1.0.0",
+			"dist": {
+				"shasum": "7f6740da25106e1e87b8cde0d8d46eceefe947dd",
+				"integrity": "sha512-zkfggDuPhaCaIlGTIR2ICQ2dALgYE+QwP3ANW3+VQJQyWusz9Y2BaPUF9y7T/JIrHbrwhr/ZQqVCTCsSVUJayw==",
+				"tarball": "http://registry.yarnpkg.com/@amoshydra.local/container/-/@amoshydra.local/container-1.0.0.tgz"
+			},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "@amoshydra.local/container",
+			"version": "2.0.0",
+			"main": "index.js",
+			"typings": "index.d.ts",
+			"license": "MIT",
+			"publishConfig": {
+				"registry": "http://localhost:11000"
+			},
+			"dependencies": {
+				"@amoshydra.local/item": "^2.0.0"
+			},
+			"_id": "@amoshydra.local/container@2.0.0",
+			"dist": {
+				"shasum": "0e3d3906471de8fa5946b228aa0028b0c7f3968f",
+				"integrity": "sha512-2snPSqeFehweRIsexPg8z7yWjibi5Ogzos6JoWLCOoI637lD0F56hqYNwz1FT8U5MYbxlPlJa7UJR8NpT6ZQMQ==",
+				"tarball": "http://registry.yarnpkg.com/@amoshydra.local/container/-/@amoshydra.local/container-2.0.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-01-05T18:54:36.836Z",
+		"created": "2024-01-05T18:54:35.603Z",
+		"1.0.0": "2024-01-05T18:54:35.603Z",
+		"2.0.0": "2024-01-05T18:54:36.836Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.0.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"container-1.0.0.tgz": {
+			"shasum": "7f6740da25106e1e87b8cde0d8d46eceefe947dd",
+			"version": "1.0.0"
+		},
+		"container-2.0.0.tgz": {
+			"shasum": "0e3d3906471de8fa5946b228aa0028b0c7f3968f",
+			"version": "2.0.0"
+		}
+	},
+	"_rev": "6-fad4307243d9445a",
+	"_id": "@amoshydra.local/container",
+	"readme": ""
+}

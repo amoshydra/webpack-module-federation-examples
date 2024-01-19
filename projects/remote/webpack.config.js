@@ -5,8 +5,12 @@ const { container, DefinePlugin } = require('webpack');
 const createModuleFederationConfig = require("./webpack.modulefederation.config");
 
 const isProduction = process.env.NODE_ENV == 'production';
-const projectFlavor = 'unversioned';
-const moduleFederationConfig = createModuleFederationConfig(projectFlavor);
+const projectFlavor = (process.env.PROJECT_FLAVOR === 'unversioned')
+  ? { flavor: 'unversioned', port: 13000 }
+  : { flavor: 'versioned', port: 13010 }
+;
+console.log(`running project variant: ${projectFlavor.flavor}`);
+const moduleFederationConfig = createModuleFederationConfig(projectFlavor.flavor);
 
 const stylesHandler = MiniCssExtractPlugin.loader;
 
@@ -19,7 +23,7 @@ const config = {
   devServer: {
     open: true,
     host: 'localhost',
-    port: 12000,
+    port: projectFlavor.port,
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -29,7 +33,7 @@ const config = {
     new MiniCssExtractPlugin(),
 
     new DefinePlugin({
-      '____PROJECT_FLAVOR____': JSON.stringify(projectFlavor),
+      '____PROJECT_FLAVOR____': JSON.stringify(projectFlavor.flavor),
       '____PROJECT_MODULE_FEDERATION_CONFIG_SHARED____': JSON.stringify(moduleFederationConfig.shared),
     }),
 
@@ -58,7 +62,7 @@ const config = {
     ],
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.jsx', '.js'],
+    extensions: ['.tsx', '.ts', '.jsx', '.js', '...'],
   },
 };
 

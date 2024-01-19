@@ -1,0 +1,64 @@
+{
+	"name": "@amoshydra.local/item",
+	"versions": {
+		"1.0.0": {
+			"name": "@amoshydra.local/item",
+			"version": "1.0.0",
+			"main": "index.js",
+			"typings": "index.d.ts",
+			"license": "MIT",
+			"publishConfig": {
+				"registry": "http://localhost:11000"
+			},
+			"_id": "@amoshydra.local/item@1.0.0",
+			"dist": {
+				"shasum": "57bc999cc1b9ee177aac270099714c655c8756b5",
+				"integrity": "sha512-ue7+KDUd81vHmVxqhRkypkH5DPvgVYQbN7n4cDYYhV1nSjpgRhp+JZjyK+sTljGgtIgRblpoI+uvYf/ZwLPeNA==",
+				"tarball": "http://registry.yarnpkg.com/@amoshydra.local/item/-/@amoshydra.local/item-1.0.0.tgz"
+			},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "@amoshydra.local/item",
+			"version": "2.0.0",
+			"main": "index.js",
+			"typings": "index.d.ts",
+			"license": "MIT",
+			"publishConfig": {
+				"registry": "http://localhost:11000"
+			},
+			"_id": "@amoshydra.local/item@2.0.0",
+			"dist": {
+				"shasum": "d930a8a8c240a4dc31f718fe70d1a193df352768",
+				"integrity": "sha512-eWqKYK+2eCkeYu0V1M9E5XVbzNc26dNh9t4YmSlQL/0tk944/1rSplNxUbsWjHw5sEKX3j2J8J3/UpQ4rWuYTw==",
+				"tarball": "http://registry.yarnpkg.com/@amoshydra.local/item/-/@amoshydra.local/item-2.0.0.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2024-01-05T18:54:39.605Z",
+		"created": "2024-01-05T18:54:38.531Z",
+		"1.0.0": "2024-01-05T18:54:38.531Z",
+		"2.0.0": "2024-01-05T18:54:39.605Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.0.0"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"item-1.0.0.tgz": {
+			"shasum": "57bc999cc1b9ee177aac270099714c655c8756b5",
+			"version": "1.0.0"
+		},
+		"item-2.0.0.tgz": {
+			"shasum": "d930a8a8c240a4dc31f718fe70d1a193df352768",
+			"version": "2.0.0"
+		}
+	},
+	"_rev": "6-89bc04048366b4cb",
+	"_id": "@amoshydra.local/item",
+	"readme": ""
+}

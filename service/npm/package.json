@@ -1,0 +1,9 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx verdaccio@5.29.0 -c config/config.yaml"
+  }
+}

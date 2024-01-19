@@ -1,0 +1,18 @@
+storage: ./storage
+auth:
+  htpasswd:
+    file: ./htpasswd
+uplinks:
+  npmjs:
+    url: https://registry.npmjs.org/
+packages:
+  '@amoshydra.local/*':
+    access: $all
+    publish: $all
+    proxy: npmjs
+  '**':
+    proxy: npmjs
+    access: $all
+log: { type: stdout, format: pretty, level: http }
+listen:
+  - localhost:11000
